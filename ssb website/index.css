@@ -1,0 +1,16 @@
+/* styling for nav and above section */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.start{
+    background-color: rgb(189, 185, 185);
+    text-align: center;
+}
+.start h1{
+    height:40px;
+    width:500px;
+    margin-left:   vw;
+    background-color: rgb(75, 71, 71);
+}

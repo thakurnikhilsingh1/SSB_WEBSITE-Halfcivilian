@@ -1,16 +1,59 @@
-/* styling for nav and above section */
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    border:0px;
+    margin:0px;
 }
-.start{
-    background-color: rgb(189, 185, 185);
+/* this is for header part */
+#sd1{
+    background-color:rgb(54, 54, 54);
+    height: 45px;
+    /* display:inline-block; */
+}
+#sd1 p{
+    padding:7px;
+    margin-left:18vw;
+    width:60vw;
+    height:30px;
+    text-align: center;
+    color:rgb(232, 225, 225);
+    background-color:rgb(38, 37, 37);;
+    font-family: futura-lt-w01-book, sans-serif;
+    /* display:inline-block; */
+}
+.sd0{
+    background-image: url(./images/c8d653_9e6113dfa17b410aa348ed408f6b2809~mv2.webp);
+    height: 1000px;
+    position: relative;
+    /* display: inline-block; */
+}
+
+a{
+    text-decoration: none;
+    color:rgb(247, 241, 241);
+    padding-right: 60px;
+}
+#sn1{
     text-align: center;
 }
-.start h1{
-    height:40px;
-    width:500px;
-    margin-left:   vw;
-    background-color: rgb(75, 71, 71);
+#sd3{
+    text-align: center;
+    padding-top:150px;
+    padding-right:600px;
+    color: aliceblue;
+    /* display:inline-block; */
+}
+#sd3 h1{
+    font-size: 70px;
+}
+#sd3 pre{
+    padding-right:200px;
+    padding-top: 20px;
+    font-size: larger;
+}
+#sd4{
+    padding-left:700px;
+    text-align: center;
+    
+}
+#cdtphoto{
+    height:600px;
 }

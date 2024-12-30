@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background: linear-gradient(135deg, #2e3b41, #1a2327);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #1e2a30;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            border: 2px solid #4a6c73;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #c0c8cd;
+            margin-bottom: 20px;
+        }
+        p, ul {
+            margin-bottom: 1.5em;
+            color: #d3d9de;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "\f132";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            margin-right: 10px;
+            color: #4caf50;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .team-member {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 5px;
+            padding: 20px;
+            background: linear-gradient(135deg, #2e3b41, #243034);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #4a6c73;
+        }
+        .team-member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+        .team-member h3 {
+            margin-top: 0;
+            color: #4caf50;
+        }
+        .team-member p {
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        .team-member img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 2px solid #4caf50;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 30px;
+            background: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background: #388e3c;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #c0c8cd;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .team-member {
+                flex: 1 1 calc(50% - 10px);
+            }
+        }
+        @media (max-width: 480px) {
+            .team-member {
+                flex: 1 1 100%;
+            }
+            .cta-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1><i class="fas fa-shield-alt"></i> About Us</h1>
+    <p>Welcome to <strong>HalfCivilian</strong>, where our mission is to create a family beyond blood. We are passionate about providing the best products and services to our customers.</p>
+    
+    <h2><i class="fas fa-book"></i> Our Story</h2>
+    <p><strong>HalfCivilian</strong> was founded in 2024 by Sahil Chaudhary in the Library of GLA University, Mathura. It started as a small site for cadets to buy their respective uniforms. Now, it has grown into a leading shopping site across the country. Our journey began with a simple idea: cadets from various institutions like the Army, NCC, NDA, Police, CRPF, RPF, etc., often face difficulties in getting uniforms of their choices and sizes. We decided to make a single platform supplying uniforms according to the department and region specified by the buyers, ensuring uniformity and discipline.</p>
+    
+    <h2><i class="fas fa-star"></i> Our Values</h2>
+    <ul>
+        <li><strong>Integrity:</strong> We believe in honesty and transparency in all our dealings.</li>
+        <li><strong>Innovation:</strong> We are constantly seeking new and creative solutions to meet our customers' needs.</li>
+        <li><strong>Customer Focus:</strong> Our customers are at the heart of everything we do.</li>
+        <li><strong>Excellence:</strong> We strive for excellence in every aspect of our business.</li>
+    </ul>
+    
+    <h2><i class="fas fa-users"></i> Our Team</h2>
+    <p>Meet the passionate individuals who make up our team:</p>
+    <div class="team">
+        <div class="team-member">
+            <img src="./images/sahil.jpg" alt="Sahil Chaudhary">
+            <h3>Sahil Chaudhary</h3>
+            <p>Founder</p>
+        </div>
+        <div class="team-member">
+            <img src="./images/harshit.jpg" alt="Harshit">
+            <h3>Harshit</h3>
+            <p>Co-Founder</p>
+        </div>
+        <div class="team-member">
+            <img src="./images/aaradhya.jpg" alt="Aaradhya Rawat">
+            <h3>Aaradhya Rawat</h3>
+            <p>CEO</p>
+        </div>
+        <div class="team-member">
+            <img src="./images/hackercat.jpg" alt="Tanya">
+            <h3>Tanya</h3>
+            <p>Management Director</p>
+        </div>
+        <div class="team-member">
+            <img src="./images/nikhil.jpg" alt="Nikhil Singh">
+            <h3>Nikhil Singh</h3>
+            <p>Sales Manager</p>
+        </div>
+        <div class="team-member">
+            <img src="./images/sehal.png" alt="Sehal Varshney">
+            <h3>Sehal Varshney</h3>
+            <p>Money Manager</p>
+        </div>
+    </div>
+    <a href="ourteam.html" class="cta-button">View More</a>
+    
+    <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+    <p>If you have any questions, feel free to reach out to us. We look forward to hearing from you!</p>
+    <a href="contact.html" class="cta-button">Contact Us</a>
+    <p></p>
+    <label for="back"></label>
+        <button type="back" style="background-color: #26e12d;"><a href="index.html">Back</a></button>
+</div>
+
+<footer>
+    &copy; 2024 HalfCivilian. All rights reserved.
+</footer>
+
+
+</body>
+</html>

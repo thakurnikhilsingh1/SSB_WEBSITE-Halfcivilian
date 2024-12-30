@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HalfCivilian</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('./images/header-background.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffde59;
+        }
+        .hero {
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border-radius: 10px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #ffde59;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .hero button:hover {
+            background-color: #e0c14e;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        main section {
+            margin-bottom: 40px;
+        }
+        .featured-products, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .product, .testimonial {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .product img, .testimonial img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #ffde59;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="sd0">
+            <div id="sd1">
+                <p>HalfCivilian - It's a family beyond blood</p>
+            </div>
+            <nav id="sn1">
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Camouflex</a>
+                <a href="#">Size Guide</a>
+                <a href="#">JoshType Family</a>
+            </nav>
+            <div class="hero">
+                <h1>Welcome to HalfCivilian</h1>
+                <p>Your one-stop shop for army and cadet uniforms</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Products</h2>
+            <div class="featured-products">
+                <div class="product">
+                    <img src="./images/product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>A brief description of Product 1.</p>
+                </div>
+                <div class="product">
+                    <img src="./images/product2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>A brief description of Product 2.</p>
+                </div>
+                <div class="product">
+                    <img src="./images/product3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>A brief description of Product 3.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Customer Testimonials</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="./images/customer1.jpg" alt="Customer 1">
+                    <p>"HalfCivilian provides the best quality uniforms. Highly recommended!" - Customer 1</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/customer2.jpg" alt="Customer 2">
+                    <p>"Excellent customer service and fast delivery." - Customer 2</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/customer3.jpg" alt="Customer 3">
+                    <p>"I am extremely satisfied with my purchase. Great experience!" - Customer 3</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; 2024 HalfCivilian. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
